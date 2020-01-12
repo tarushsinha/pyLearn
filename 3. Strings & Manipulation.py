@@ -62,4 +62,3 @@ print(f"{s}\n" *  3)
 
 ## Multiplying a String by zero prints an empty line
 print(f"{s}\n" * 0)
-

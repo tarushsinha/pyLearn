@@ -43,5 +43,3 @@ def tempName():
             print(f"No name stored on file. Full error: {error}\n")
 
 tempName()
-
-
