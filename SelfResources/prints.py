@@ -1,7 +1,7 @@
 # Prints can use '' or ""
 print('Print Examples:')
 # \n, \t, etc. can be used within quotes
-print("Format Print:\n\t\t\tcan do this!\n")
+print("Char Syntax:\n\t\t\tcan do this!\n")
 
 # {} represent Sets, cannot store duplicates. While len(mood) should be 7, it is 6
 # more on Sets (basic uses) - membership testing, eliminating duplicate elements

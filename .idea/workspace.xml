@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b9ff7f1-2c5b-42ba-a064-f7c31bdc4d7e" name="Default Changelist" comment="" />
+    <list default="true" id="4b9ff7f1-2c5b-42ba-a064-f7c31bdc4d7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1HelloWorld.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. HelloWorld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prints.py" beforeDir="false" afterPath="$PROJECT_DIR$/SelfResources/prints.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WGpYQzDOGQmreplXemSUdRXWHz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +31,56 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SelfResources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.2. Basic Concepts">
+    <configuration name="1. HelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. HelloWorld.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2. Basic Concepts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyLearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2. Basic Concepts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="prints" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -36,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prints.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SelfResources/prints.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -47,6 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2. Basic Concepts" />
+        <item itemvalue="Python.1. HelloWorld" />
         <item itemvalue="Python.1prints" />
       </list>
     </recent_temporary>
@@ -77,21 +136,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1069" height="304" key="GridCell.Tab.0.bottom" timestamp="1578787357274">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1899" height="304" key="GridCell.Tab.0.bottom" timestamp="1578797524440">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
-    <state width="1069" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578787357274" />
-    <state width="1069" height="304" key="GridCell.Tab.0.center" timestamp="1578787357272">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="993" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578788376631" />
+    <state width="1899" height="304" key="GridCell.Tab.0.bottom/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1578797524440" />
+    <state width="1899" height="304" key="GridCell.Tab.0.center" timestamp="1578797524439">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
-    <state width="1069" height="304" key="GridCell.Tab.0.center/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578787357272" />
-    <state width="1069" height="304" key="GridCell.Tab.0.left" timestamp="1578787357271">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="993" height="304" key="GridCell.Tab.0.center/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578788376630" />
+    <state width="1899" height="304" key="GridCell.Tab.0.center/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1578797524439" />
+    <state width="1899" height="304" key="GridCell.Tab.0.left" timestamp="1578797524438">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
-    <state width="1069" height="304" key="GridCell.Tab.0.left/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578787357271" />
-    <state width="1069" height="304" key="GridCell.Tab.0.right" timestamp="1578787357273">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="993" height="304" key="GridCell.Tab.0.left/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578788376630" />
+    <state width="1899" height="304" key="GridCell.Tab.0.left/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1578797524438" />
+    <state width="1899" height="304" key="GridCell.Tab.0.right" timestamp="1578797524439">
+      <screen x="0" y="23" width="1920" height="1013" />
     </state>
-    <state width="1069" height="304" key="GridCell.Tab.0.right/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578787357273" />
+    <state width="993" height="304" key="GridCell.Tab.0.right/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578788376631" />
+    <state width="1899" height="304" key="GridCell.Tab.0.right/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1578797524439" />
   </component>
 </project>
