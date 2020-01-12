@@ -10,8 +10,9 @@
 ## Python is processed at runtime by the interpreter - program that runs scripts written in an
 ## interpreted language. Removes the requirement for compile before executing
 
-##First language usage - as is tradition:
+## First language usage - as is tradition:
 helloWorld = "Hello World"
 print(f'Print statment is being used to output this text: {helloWorld}')
 
-#For more on prints w/ formatting, usage with Sets, Lists see SelfResources/prints.py
+## For more on prints w/ formatting, usage with Sets, Lists see SelfResources/prints.py
+## More on Strings in 3. Strings & Manipulation.py
