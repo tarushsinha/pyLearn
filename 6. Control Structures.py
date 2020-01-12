@@ -50,7 +50,7 @@ def legality(age):
         print("underage")
     elif age >= 18:
         if age < 21:
-            print("adult, but can't legally drink")
+            print("adult, below drinking age")
         elif age < 65:
             print("adult")
         else:
