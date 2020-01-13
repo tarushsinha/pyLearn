@@ -118,83 +118,18 @@ def fortuneTeller():
 
 fortuneTeller()
 
-## Lists - Python object to store an indexed list of items. Created using square brackets with commas separating items
-## list index starts at 0
-wordList = ["Hello", "world", "!"]
-print(wordList[0] + " " + wordList[1])
+## Range
+## the range function creates a sequential list of numbers, can be modified to include increments of a number(step)
 
-## empty lists are created with an empty pair of square brackets -
-empty_list = []
-print(f"The populated list looks like {wordList}, while the empty list looks like {empty_list}\n")
+## the list cast is required because range creates a new object, and must be converted to a list if to be used like one
+## more on lists in 7. Lists.py
 
-## List - data types
-## Typically, a list will contain items of a single item type, but it is also possible to include different types
-## Lists can also be nested within other lists - think 2d array
+## sample syntax - range(start, end, step)
+## Java comparison -> for i = start; i < end; i+=step
+evens = list(range(0, 10, 2))
+odds = list(range(1, 10, 2))
+all = list(range(10))
 
-## Sample iterate through 2d array when unsure of item types being stored -
-arr2d = ["Hello", "World", 0, [1, 2, 3], [4, 5, 6]]
-for item in arr2d:
-    if type(item) == type(arr2d):
-        for cmpnt in item:
-            print(cmpnt)
-    else:
-        print(item)
-
-## Strings representation - indexed as lists. Indexing strings behaves as though you are indexing chars in the string
-## Being indexed like a list is a String property, cause a TypeError with integers and other types
-
-## two example - printing strings character by character
-## example one
-word = "pneumonoultramicroscopicsilicovolcanoconiosis"
-sb = ""
-for char in word:
-    sb = sb + char + " "
-
-print("\nLongest word in the English language at 45 letters: ")
-print(sb)
-
-## example two
-thirdWord = "floccinaucinihilipilification"
-sb = ""
-for i in range(len(thirdWord)):
-    sb = sb + thirdWord[i] + " "
-
-print("\nThird longest word in the English language at 29 letters: ")
-print(sb)
-
-## List Operations - items at a certain index in a list can be reassigned
-ages = [12, 19, 20, 85]
-
-## replace the 20 year old with a 25 year old
-ages[2] = 25
-print(f"\nAges List: {ages}\n")
-
-## Lists can be added & multiplied in the same way as strings -
-print(ages + [14, 18, 20])
-print(ages * 3)
-
-## To check List membership, the `in` operator can be used to return a Boolean value
-## If the item occurs at least once in the list, Boolean returns True, False otherwise
-print(f"\nIs there a 21 year old in the ages pool?")
-print(21 in ages)
-
-## Uses of `in` can be extended to a simple substring checker
-## This method ignores python's case sensitivity
-def substring(word, substring):
-    if substring.lower() in word.lower():
-        return True
-    else:
-        return False
-
-Australia = "Australia"
-trail = "trail"
-print(f"\nIs the word {trail} in the word {Australia}?\n{substring(Australia, trail)}\n")
-
-Barbie = "Barbie"
-barb = "barb"
-print(f"Is the word {barb} in the word {Barbie}?\n{substring(Barbie, barb)}\n")
-
-## Similar to how we used `not` to negate the value of variables, we can check the opposite of `in`
-pizza = "pizza"
-greenland = "greenland"
-print(not pizza in greenland)
+print(f"Evens: {evens}")
+print(f"Odds: {odds}")
+print(f"All: {all}")
