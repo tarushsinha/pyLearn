@@ -123,6 +123,29 @@ sequence.reverse()
 print(f"The arr after it is reversed: {sequence}\n")
 
 
+## List Techniques - List Slicing
+## slicing can apply to tuples as well - more on tuples in 13. More Types.py
+## A more advanced way to retrieve values from a list, list slicing involves indexing a list w/ a start & end index
+perfect_squares = [1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(perfect_squares[2:6])
 
+## if the first index is omitted, it is treated as the smallest
+## if the second index is omitted, it is treated as the largest
+print(perfect_squares[:5])
+print(perfect_squares[5:])
+
+## a third number may be present, representing the step
+print(perfect_squares[::2])
+print(perfect_squares[2:6:2])
+
+## List Slices can use negative values, which count from the end of the list
+print(perfect_squares[1:-1])
+
+## If a negative values is used for the step, the list slice is done backwards - used for reversing a list
+print(perfect_squares[::-1])
+print(perfect_squares[::1])
+
+
+## List Techniques - List Comprehensions
 
 

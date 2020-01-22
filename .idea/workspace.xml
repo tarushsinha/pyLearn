@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b9ff7f1-2c5b-42ba-a064-f7c31bdc4d7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12. File IO.py" beforeDir="false" afterPath="$PROJECT_DIR$/12. File IO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/7. Lists.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="$PROJECT_DIR$/SelfResources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.12. File IO">
+  <component name="RunManager" selected="Python.7. Lists">
     <configuration name="10. Exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9. Functions &amp; Modules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13. More Types" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9. Functions &amp; Modules.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13. More Types.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="7. Lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyLearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Wireframe Programs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../WireframePrograms/calculator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7. Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.7. Lists" />
+        <item itemvalue="Python.13. More Types" />
         <item itemvalue="Python.12. File IO" />
         <item itemvalue="Python.11. Assertions(Testing)" />
         <item itemvalue="Python.10. Exceptions" />
-        <item itemvalue="Python.9. Functions &amp; Modules" />
-        <item itemvalue="Python.calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,6 @@
         </serviceView>
       </list>
     </option>
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,29 +191,29 @@
       <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state x="712" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1578893659205" />
-    <state width="1899" height="319" key="GridCell.Tab.0.bottom" timestamp="1579552240062">
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom" timestamp="1579737395967">
       <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="993" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578788376631" />
-    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1579552240062" />
+    <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1579737395967" />
     <state width="1899" height="319" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1440.23.1440.833@0.23.1920.1057" timestamp="1579303264803" />
-    <state width="1899" height="319" key="GridCell.Tab.0.center" timestamp="1579552240061">
+    <state width="1899" height="319" key="GridCell.Tab.0.center" timestamp="1579737395966">
       <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="993" height="304" key="GridCell.Tab.0.center/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578788376630" />
-    <state width="1899" height="319" key="GridCell.Tab.0.center/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1579552240061" />
+    <state width="1899" height="319" key="GridCell.Tab.0.center/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1579737395966" />
     <state width="1899" height="319" key="GridCell.Tab.0.center/0.23.1920.1057/-1440.23.1440.833@0.23.1920.1057" timestamp="1579303264802" />
-    <state width="1899" height="319" key="GridCell.Tab.0.left" timestamp="1579552240061">
+    <state width="1899" height="319" key="GridCell.Tab.0.left" timestamp="1579737395966">
       <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="993" height="304" key="GridCell.Tab.0.left/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578788376630" />
-    <state width="1899" height="319" key="GridCell.Tab.0.left/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1579552240061" />
+    <state width="1899" height="319" key="GridCell.Tab.0.left/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1579737395966" />
     <state width="1899" height="319" key="GridCell.Tab.0.left/0.23.1920.1057/-1440.23.1440.833@0.23.1920.1057" timestamp="1579303264801" />
-    <state width="1899" height="319" key="GridCell.Tab.0.right" timestamp="1579552240062">
+    <state width="1899" height="319" key="GridCell.Tab.0.right" timestamp="1579737395967">
       <screen x="0" y="23" width="1920" height="1013" />
     </state>
     <state width="993" height="304" key="GridCell.Tab.0.right/0.0.1920.1080/-1440.0.1440.900@0.0.1920.1080" timestamp="1578788376631" />
-    <state width="1899" height="319" key="GridCell.Tab.0.right/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1579552240062" />
+    <state width="1899" height="319" key="GridCell.Tab.0.right/0.23.1920.1013/-1440.23.1440.877@0.23.1920.1013" timestamp="1579737395967" />
     <state width="1899" height="319" key="GridCell.Tab.0.right/0.23.1920.1057/-1440.23.1440.833@0.23.1920.1057" timestamp="1579303264802" />
     <state width="1899" height="340" key="GridCell.Tab.1.bottom" timestamp="1578908200483">
       <screen x="0" y="23" width="1920" height="1013" />
