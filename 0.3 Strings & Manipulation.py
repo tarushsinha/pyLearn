@@ -62,3 +62,33 @@ print(f"{s}\n" *  3)
 
 ## Multiplying a String by zero prints an empty line
 print(f"{s}\n" * 0)
+
+## String Formatting
+
+## we can use the string's format method to substitute a number of argument into a string
+## each arg of the format function is placed into the string at the position corresponding to that determined by the {}
+def weatherConverter():
+    ## Capture temperature values & unit (F or C)
+    while True:
+        try:
+            num = float(input("What is the temperature outside?: \ "))
+            break
+        except ValueError as error:
+            print(f"Error Caught: {error}\n")
+    while(True):
+        mode = input("Is that Fahrenheit or Celsius? Enter `F` for Fahrenheit or `C` for Celsius! \ ")
+        if mode == 'F' or mode == 'C':
+            break
+
+    ## Proces conversion for each
+    if mode == 'C':
+        num = (num * 9/5) + 32
+        mode = "Fahrenheit"
+    else:
+        num =(num - 32) * 5/9
+        mode = "Celsius"
+
+    retMsg = "The temperature outside is {0} degrees {1}".format(num, mode)
+    print(retMsg)
+
+weatherConverter()

@@ -147,5 +147,27 @@ print(perfect_squares[::1])
 
 
 ## List Techniques - List Comprehensions
+## this technique is useful for creating lists whose contents obey simple rulesetting
+
+## program to Print all integers that aren't divisible by either 2 or 3 and lie between 0 & 50
+def valid(num):
+    if not(num%2 == 0 or num%3 == 0):
+        return num
+
+def subList(maxRange):
+    sList = [valid(i) for i in range(maxRange)]
+    while(sList.count(None) != 0):
+        sList.remove(None)
+    return sList
+
+print(subList(50))
+
+## this program can be improved if we use an if statement within our previous List Comprehension
+## this will remove the necessity of the while loop to remove all instances of None in our returned List
+def improvedsubList(maxRange):
+    sList = [valid(i) for i in range(maxRange) if valid(i) != None]
+    return sList
+
+print(improvedsubList(50))
 
 
