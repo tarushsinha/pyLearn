@@ -122,7 +122,7 @@ fortuneTeller()
 ## the range function creates a sequential list of numbers, can be modified to include increments of a number(step)
 
 ## the list cast is required because range creates a new object, and must be converted to a list if to be used like one
-## more on lists in 7. Lists.py
+## more on lists in 0.7 Lists.py
 
 ## sample syntax - range(start, end, step)
 ## Java comparison -> for i = start; i < end; i+=step

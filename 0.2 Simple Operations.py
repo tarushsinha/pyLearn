@@ -102,7 +102,7 @@ ret = int(v1+v2)
 print(ret)
 print(type(ret))
 
-## Type Conversion can be applied to User Input, see 3. Strings & Manipulation.py for some more input basics
+## Type Conversion can be applied to User Input, see 0.3 Strings & Manipulation.py for some more input basics
 ## if we are explicity looking for numbers (ints or floats), we can pre-cast the input (which is a string)
 ## this method will cause an error when passed non-integer or float values
 

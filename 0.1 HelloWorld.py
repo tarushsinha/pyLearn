@@ -15,4 +15,4 @@ helloWorld = "Hello World"
 print(f'Print statment is being used to output this text: {helloWorld}')
 
 ## For more on prints w/ formatting, usage with Sets, Lists see SelfResources/prints.py
-## More on Strings in 3. Strings & Manipulation.py
+## More on Strings in 0.3 Strings & Manipulation.py

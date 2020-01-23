@@ -124,7 +124,7 @@ print(f"The arr after it is reversed: {sequence}\n")
 
 
 ## List Techniques - List Slicing
-## slicing can apply to tuples as well - more on tuples in 13. More Types.py
+## slicing can apply to tuples as well - more on tuples in 1.3 More Types.py
 ## A more advanced way to retrieve values from a list, list slicing involves indexing a list w/ a start & end index
 perfect_squares = [1, 4, 9, 16, 25, 36, 49, 64, 81]
 print(perfect_squares[2:6])

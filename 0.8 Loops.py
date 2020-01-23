@@ -20,6 +20,6 @@ for num in nums:
 print(ret)
 
 ## for loops are commonly used to repeat code a number of times, can be combined with range objects
-## unlike in 6. Control Structures.py we don't need to cast list on the range obj - because it isn't being indexed
+## unlike in 0.6 Control Structures.py we don't need to cast list on the range obj - because it isn't being indexed
 for i in range(len(nums)):
     print(nums[i])

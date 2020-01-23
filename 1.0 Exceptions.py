@@ -24,7 +24,7 @@
 ## the code then moves from the halted `try` block to the `except` block, where its' code is run.
 ## the `except` block will never run if no error occurs in the `try` block
 
-## Example of exception handling can be seen in 2. Simple Operations.py in the method divByZero()
+## Example of exception handling can be seen in 0.2 Simple Operations.py in the method divByZero()
 
 ## except statements w/out a specified exception will catch all errors(don't do this) - as it hides programming mistakes
 ## try statements can have multiple except blocks for different kinds of exceptions, or put into a single except block:
