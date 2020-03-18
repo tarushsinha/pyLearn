@@ -95,6 +95,18 @@ try:
 except TypeError as e:
     print(f"Can't change the alphabet\n")
 
+## Numeric Functions -
+## min/max of number or list, use `max()` or `min()`
+print(min(alphabet))
+print(max(alphabet))
+print(min(numPad))
+print(max(numPad))
+
+## absolute value - `abs()`
+print(abs(-42))
+
+## sum - `sum()`
+print(sum(numPad))
 
 
 

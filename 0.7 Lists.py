@@ -170,4 +170,23 @@ def improvedsubList(maxRange):
 
 print(improvedsubList(50))
 
+## List Functions
+## `all` & `any` - if these take a list as an argument, they return True or false based on a conditional:
+nums = [55, 44, 33, 22, 11]
+
+if all([i > 10 for i in nums]):
+    print("\nAll larger than 10")
+
+if any([i%2 == 0 for i in nums]):
+    print("\nAt least one number is even\n")
+
+## function - enumerate()
+## iterates through values & indices of list simultaneously
+for (x,y) in enumerate(nums):
+    print(x)
+    print(y)
+
+for n in enumerate(nums):
+    print(n)
+
 

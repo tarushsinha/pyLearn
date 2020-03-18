@@ -89,6 +89,80 @@ def weatherConverter():
         mode = "Celsius"
 
     retMsg = "The temperature outside is {0} degrees {1}".format(num, mode)
+
+    ## String formatting can also be done with named arguments as done below
+    ret2Msg = "The temperature outside is {num} degrees {mode}".format(num = num, mode = mode)
+
     print(retMsg)
+    print(ret2Msg)
 
 weatherConverter()
+
+## String Functions
+
+## join() - joins a list of strings with another as a separator
+sep = ", "
+sJoin = sep.join(["Hello", "World"])
+print(sJoin)
+
+## join() can be used to add a space between all letters of a word for example
+spc = " "
+sepStr = spc.join("cowabunga")
+print(sepStr)
+
+## replace() - replaces a substring present in a string with another
+print(s.replace("World", "ME\n"))
+
+## startswith() and endswith() determine the presence of a substring at the start & end of a string respectively
+## this is similar to the usage of ^ $ in regexp in some ways
+myName = "Tarush"
+sampleEmail = """To Whom This May Concern:
+
+This is where I would show you I have a lot of important stuff to say. But in the place of that, you're going to get
+some good old Lore Ipsum stuff!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sagittis maximus elit. In sit amet tincidunt nisl. Nunc 
+nisl tellus, dignissim congue tempus eu, sollicitudin non magna. Duis pretium sed velit eu condimentum. Nullam malesuada
+iaculis mollis. Nam sed iaculis erat. Quisque feugiat ut libero id aliquam. Integer consequat libero sed turpis 
+ullamcorper dapibus. Integer eget tortor ac erat interdum egestas ultricies in sapien. Nullam tristique et nunc sed 
+bibendum.
+ 
+Best Regards,
+{myName}""".format(myName = myName)
+
+def validEmail(msg, name):
+    ret = "Valid"
+    if not(msg.startswith("Dear")):
+        ret = "Fail - bad start"
+    if not(msg.endswith(name)):
+        if ret != "Valid":
+            ret = ret + " and bad end"
+        else:
+            ret = "Fail - bad end"
+    print(ret)
+
+validEmail(sampleEmail, myName)
+
+def shout(strinput):
+    return strinput.upper()
+
+print(shout("i swear i'm not angry"))
+print(shout("ARE you SURE"))
+print(shout("there ARE fourty 2 letters in this SENTENCE...mAyBe"))
+
+def whisper(strinput):
+    return strinput.lower()
+
+print(whisper("I'M TELLING YOU A SECRET HERE"))
+print(whisper("what happens in Vegas stays in Vegas"))
+
+## common interview question - remove all spaces in a string)
+def removeSpace(strinput):
+    return strinput.split(" ")
+
+print(removeSpace("This is a list where I have isolated the words!"))
+
+## more string formatting - can be done with named arguments
+endGreeting = "{x}, {y}".format(x = "Sincerely", y = "Tarush")
+print(endGreeting)
+
